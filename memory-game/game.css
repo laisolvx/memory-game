@@ -13,6 +13,7 @@ main {
 header {
     display: flex;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
     font-size: 1.2em;
     justify-content: space-between;
     width: 100%;
@@ -38,7 +39,6 @@ header {
     position: relative;
     transition: all 400ms ease;
     transform-style: preserve-3d;
-    background-color: #ccc;
 }
 
 .face {
