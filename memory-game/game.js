@@ -7,7 +7,7 @@ const characters = [
     'jerry',
     'jessica',
     'morty',
-    'pessoa-passaro',
+    'passaro',
     'pickle-rick',
     'rick',
     'summer',
@@ -87,7 +87,7 @@ const createCard = (character) => {
     const front = createElement('div', 'face front');
     const back = createElement('div', 'face back');
 
-    front.style.backgroundImage = `url('../images/${character}.png')`;
+    front.style.backgroundImage = `url('./images/${character}.png')`;
 
     card.appendChild(front);
     card.appendChild(back);

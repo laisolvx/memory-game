@@ -1,7 +1,7 @@
 main {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%), url('../images/794362.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%), url('./images/bg.jpg');
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -58,7 +58,7 @@ header {
 }
 
 .back {
-    background-image: url('../images/back.png');
+    background-image: url('./images/back.png');
     backface-visibility: hidden;
 }
 
